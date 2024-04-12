@@ -1,24 +1,32 @@
 import React from "react";
 
-
 export default function RightSide() {
   return (
-<>
-
-        <ul className=" item-center justify-center py-10 border-b  border-gray-100 dark:bg-black">
+    <>
+      <ul className=" item-center justify-center py-10 border-b  border-gray-100 dark:bg-black">
         <li>
-          <div >
-            <svg
-              width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg "style={{ marginRight: "8px" }} className="{{ IsDarkMode ? 'fill-white' : 'fill-gray-800' }}"
-            > <path d="M11.9047 8.47089L19.3513 0.00836182H17.5873L11.1187 7.35475L5.956 0.00836182H0L7.80867 11.1185L0 19.9916H1.764L8.59067 12.2319L14.044 19.9916H20M2.40067 1.30886H5.11067L17.586 18.755H14.8753" className="fill-current"  />
-            </svg>
-            <a href="https://www.example.com" target="_blank" rel="noreferrer">
-              Follow me on X
+          <div style={{ display: "flex", alignItems: "center" }}>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 3 24 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="{{ IsDarkMode ? 'fill-white' : 'fill-gray-800' }}"
+            style={{ marginRight: "8px" }}
+          >
+            <path
+              d="M1.125 5.515A1 1 0 0 1 2 5h14a1 1 0 0 1 .84 1.543l-5.162 7.977.347.578 6.131-9.635A1 1 0 0 1 19 5h3a1 1 0 0 1 .848 1.53l-10 16a1 1 0 0 1-1.696 0l-10-16a1 1 0 0 1-.027-1.015ZM3.805 7 12 20.113 20.196 7h-.647l-6.705 10.537a1 1 0 0 1-1.701-.022l-1.5-2.5a1 1 0 0 1 .017-1.058L14.162 7H3.804Z"
+              class="fill-current"
+            />
+          </svg>
+            <a href="https://vero.co/angelacieslak" target="_blank" rel="noreferrer">
+              Follow me on Vero
             </a>
           </div>
         </li>
         <li>
-          <div >
+          <div style={{ display: "flex", alignItems: "center" }}>
             <svg
               width="24"
               height="24"
@@ -35,13 +43,13 @@ export default function RightSide() {
                 className="fill-current"
               />
             </svg>
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/cieslak96" target="_blank" rel="noreferrer">
               Follow me on Github
             </a>
           </div>
         </li>
         <li>
-          <div >
+          <div style={{ display: "flex", alignItems: "center" }}>
             <svg
               width="24"
               height="24"
@@ -56,7 +64,7 @@ export default function RightSide() {
                 className="fill-current"
               />
             </svg>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://linkedin.com/in/angelacieslak" target="_blank" rel="noreferrer">
               Follow me on Linkedin
             </a>
           </div>
@@ -74,16 +82,14 @@ export default function RightSide() {
         >
           <path
             d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             className="stroke-current"
           />
         </svg>
-        <a href="mailto:your_email@example.com">jane@gmail.com</a>
+        <a href="mailto:your_email@example.com">cieslak.96@proton.me</a>
       </div>
-
-      </>
-
+    </>
   );
 }

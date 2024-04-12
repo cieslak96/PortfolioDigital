@@ -16,7 +16,7 @@ export default function Intro() {
 F-Society
       </p>
       <ul className="flex">
-        <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer"className="linkedin inline-block mr-3">
+        <li><a href="https://linkedin.com/in/angelacieslak" target="_blank" rel="noreferrer"className="linkedin inline-block mr-3">
           <svg
             width="24"
             height="24"
@@ -46,7 +46,7 @@ F-Society
             />
           </svg></a>
         </li>
-        <li><a href="https://github.com" target="_blank" rel="noreferrer" className="github inline-block mr-3">
+        <li><a href="https://github.com/cieslak96" target="_blank" rel="noreferrer" className="github inline-block mr-3">
           <svg
             width="24"
             height="24"

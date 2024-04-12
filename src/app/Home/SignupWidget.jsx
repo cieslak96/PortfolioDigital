@@ -104,7 +104,7 @@ function App() {
     <>
       <SignupWidget
         title={"Let`s keep in touch"}
-        content={"Let me add you as my WhatsApp contact.\n This is the better way to contact me, and you will also be able to see my updates"}
+        content={"Let me add you as my WhatsApp contact. This is the better way to contact me, and you will also be able to see my updates"}
       />
     </>
   );

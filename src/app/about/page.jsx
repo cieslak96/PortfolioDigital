@@ -5,7 +5,7 @@ import Int_about from "./Intro";
 import Right_col from "./Contact";
 import Footer from "../../components/Footer";
 import ThemeSwitcher from "../../components/ThemeSwitcher";
-import lanapic from "./lana.jpg";
+import lanapic from "./About.png";
 import Image from "next/image";
 
 export const metadata = {
