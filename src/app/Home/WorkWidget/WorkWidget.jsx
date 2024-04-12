@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Image from "next/image";
 
-import Microsoft from "./Microsoft.png";
-import Spotify from "./Spotify.png";
-import Slack from "./Slack.png";
-import Audible from "./Audible.png";
+import TP from "./TP.png";
+import CNA from "./CNA.png";
+import LDS from "./LDS.png";
+
 
 const WorkWidget = ({ title, content, experiences }) => {
   return (
@@ -83,36 +83,30 @@ const App = () => {
       <div className="max-w-screen-md">
         <WorkWidget
           title={"Work"}
-          content={"loren vrjngsllsnrk"}
+          content={"Some wonderful places I had the opportunity to work for"}
           experiences={[
             {
-              logo: Slack,
-              organization: "Slack",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2016,
-              endYear: null,
+              logo: LDS,
+              organization: "Church of Jesus Christ",
+              jobTitle: "Customer Service",
+              startYear: 2022,
+              endYear: 2023,
             },
             {
-              logo: Spotify,
-              organization: "Spotify",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2014,
-              endYear: 2015,
+              logo: CNA,
+              organization: "CNA - Ingles Definitivo",
+              jobTitle: "TESOL instructor",
+              startYear: 2018,
+              endYear: 2020,
             },
             {
-              logo: Microsoft,
-              organization: "Microsoft",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2012,
-              endYear: 2013,
+              logo: TP,
+              organization: "Teleperformance",
+              jobTitle: "Digital Analist",
+              startYear: 2017,
+              endYear: 2018,
             },
-            {
-              logo: Audible,
-              organization: "Audible",
-              jobTitle: "SOFTWARE ENGINEER",
-              startYear: 2010,
-              endYear: 2011,
-            },
+
           ]}
         />
       </div>

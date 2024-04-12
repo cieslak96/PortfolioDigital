@@ -4,26 +4,28 @@ import PropTypes from "prop-types";
 const ArticleCard = () => {
   const articles = [
     {
-      date: "2022-01-01",
-      title: "React Hooks: Understanding useState and useEffect",
+      date: "Feb. 13, 2019",
+      title: "The Secret History of Women in Coding",
       content:
-        "Dive deep into two fundamental React hooks, useState and useEffect, with this article. Learn how to manage state and handle side effects in your React components using these hooks. The article also covers fetching data from APIs and handling asynchronous operations.",
-      link: "https://www.robinwieruch.de/react-hooks-fetch-data",
+        "Computer programming once had much better gender balance than it does today. What went wrong?",
+      link: "https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html",
+    },
+
+    {
+      date: "DEC 13, 2022",
+      title: "Learn Coding on Your Own: How to Teach Yourself Coding",
+      content:
+      "Learning coding on your own can be a great way to start your coding journey. As a self-taught programmer, you will pick up new skills, gain access to the best tech jobs, improve your salary, and make yourself a more valuable employee no matter what industry you work for. If you’re wondering how to learn coding by yourself, keep reading.",
+      link: "https://careerkarma.com/blog/how-to-learn-coding-by-yourself/",
     },
     {
-      date: "2022-01-15",
-      title: "React Testing Library: A Complete Guide",
+      date: "Jun 24, 2020",
+      title: "Young Black Women Are Learning To Code Thanks To These Brazilians",
       content:
-        "Learn how to test your React components with React Testing Library. This article covers the fundamentals of testing React components, including rendering components, interacting with them, and making assertions. You will also learn how to test asynchronous operations and handle edge cases.",
-      link: "https://www.robinwieruch.de/react-testing-library",
+      "Meet Ester Borges Santos, a trailblazing force from Sao Paulo, Brazil, on a mission to shatter gender and racial barriers in STEM. In the face of Covid-19, she and her team at NGO Minas Programam launched a virtual haven for young black girls eager to dive into the world of technology. Their inspiring journey not only cultivates coding skills but also empowers a generation to defy stereotypes and claim their space in the realms of science and innovation. Join the movement as they pave the way for a brighter, more inclusive future in tech.",
+      link: "https://www.forbes.com/sites/andrewwight/2020/06/24/young-black-women-are-learning-to-code-thanks-to-these-brazilians/?sh=5481454b3ef0",
     },
-    {
-      date: "2022-02-01",
-      title: "React Router: A Complete Guide",
-      content:
-        "Master React Router with this comprehensive guide. Learn how to set up routing in your React applications, including nested routes, route parameters, and programmatic navigation. The article also covers authentication and authorization, as well as protecting routes in your application.",
-      link: "https://www.robinwieruch.de/react-router",
-    },
+   
   ];
 
   if (!articles.length) {

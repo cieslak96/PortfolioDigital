@@ -11,13 +11,9 @@ export default function Intro() {
   return (
     <div className="container mx-auto p-5 ">
       <Image src={profilePic} alt="Profile" className=" p-5 rounded-full w-64 h-64 md:w-50 md:h-50" />
-      <h1 className="text-2xl md:text-4xl text-left font-semibold my-4">Software engineer, father, and believer</h1>
+      <h1 className="text-2xl md:text-4xl text-left font-semibold my-4">Angela Cieslak , 27</h1>
       <p className="text-base md:text-lg text-left">
-        To be, or not of? Thus contumely, the whips and their to, tis a consummation is sicklied o er with the question:
-        whether tis a consummation is sicklied oer with and enterprises of office, and by opposing end thus the native
-        hue of action. To be, or not of? Thus contumely, the slings and their currents turn awry, and sweat under a
-        weary life; for who would fardels bear the heart-ache and lose the respect that we know not to be: that the
-        question: whether tis nobler in the insolence of action. To di.
+F-Society
       </p>
       <ul className="flex">
         <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer"className="linkedin inline-block mr-3">
@@ -35,17 +31,17 @@ export default function Intro() {
             />
           </svg></a>
         </li>
-        <li><a href="https://www.example.com" target="_blank" rel="noreferrer" className="x inline-block mr-3 mt-1">
+        <li><a href="https://vero.co/angelacieslak" target="_blank" rel="noreferrer" className="x inline-block mr-3 ">
           <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            viewBox="0 3 24 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             class="{{ IsDarkMode ? 'fill-white' : 'fill-gray-800' }}"
           >
             <path
-              d="M11.9047 8.47089L19.3513 0.00836182H17.5873L11.1187 7.35475L5.956 0.00836182H0L7.80867 11.1185L0 19.9916H1.764L8.59067 12.2319L14.044 19.9916H20M2.40067 1.30886H5.11067L17.586 18.755H14.8753"
+              d="M1.125 5.515A1 1 0 0 1 2 5h14a1 1 0 0 1 .84 1.543l-5.162 7.977.347.578 6.131-9.635A1 1 0 0 1 19 5h3a1 1 0 0 1 .848 1.53l-10 16a1 1 0 0 1-1.696 0l-10-16a1 1 0 0 1-.027-1.015ZM3.805 7 12 20.113 20.196 7h-.647l-6.705 10.537a1 1 0 0 1-1.701-.022l-1.5-2.5a1 1 0 0 1 .017-1.058L14.162 7H3.804Z"
               class="fill-current"
             />
           </svg></a>

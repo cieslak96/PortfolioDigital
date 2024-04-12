@@ -3,35 +3,36 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 
 const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
-  // State to manage the email input and messages
-  const [email, setEmail] = useState("");
+  // State to manage the phone number input and messages
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [isValidEmail, setIsValidEmail] = useState(true);
+  const [isValidPhoneNumber, setIsValidPhoneNumber] = useState(true);
+
   async function handleSubmit(e) {
     e.preventDefault();
-    if (!validateEmail(email)) {
-      setIsValidEmail(false);
+    if (!validatePhoneNumber(phoneNumber)) {
+      setIsValidPhoneNumber(false);
       return;
     }
-    setIsValidEmail(true);
+    setIsValidPhoneNumber(true);
     try {
       setBusy(true);
       // Wait for the specified time (simulating a network request)
       await new Promise((resolve) => setTimeout(resolve, simulateNetworkRequestTime));
-      setMessage(`Thanks for subscribing, ${email}!`);
+      setMessage(`Thanks for subscribing, ${phoneNumber}!`);
       setIsSubscribed(true);
     } finally {
       setBusy(false);
     }
   }
 
-  // Function to validate email
-  const validateEmail = (email) => {
-    // Basic email validation logic
-    const regex = /\S+@\S+\.\S+/;
-    return regex.test(email);
+  // Function to validate phone number
+  const validatePhoneNumber = (phoneNumber) => {
+    // Basic phone number validation logic
+    const regex = /^\d{10}$/; // Assuming a 10-digit phone number
+    return regex.test(phoneNumber);
   };
 
   return (
@@ -42,12 +43,9 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
       autoComplete={"false"}
     >
       <div data-testid={"signupWidgetTitle"} className="font-semibold item-center flex">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
-            d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+      d="M4.752 6.524C3.684 7.53 2.06 10.862 4.11 16.133L3 21l4.273-1.51c2.905 1.258 8.844 1.972 12.22-3.064 3.16-4.715.823-9.525-2.18-11.749-2.06-1.526-5.793-2.735-10.51-.251-.456 2.042-.59 6.638 2.692 9.525 4.101 3.608 7.349 1.846 8.032.587l-2.82-1.636-1.41 1.258c-1.04-.363-3.256-1.51-3.802-3.189l.94-1.258L9.238 6.9c-.299.084-1.004.365-1.431.818"
             class="stroke-current"
           />
         </svg>
@@ -60,24 +58,24 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
       )}
       {!isSubscribed && (
         <>
-          <p data-testid={"signupWidgetContent"} className="dark:text-gray-400">
+          <p data-testid={"signupWidgetContent"} className="dark:text-gray-400 text-sm">
             {content}
           </p>
           <div className={"input-row"}>
             <input
-              type="email"
-              placeholder="Enter your email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              type="tel" // Change type to "tel" for phone number input
+              placeholder="Enter your phone number"
+              value={phoneNumber}
+              onChange={(e) => setPhoneNumber(e.target.value)}
               data-testid="signupWidgetInput"
               required
               disabled={busy}
               className={`block w-full border border-gray-300 rounded-md py-2 px-3 mb-3 placeholder-gray-400 dark:bg-gray-800 ${
-                !isValidEmail && "border-red-500"
+                !isValidPhoneNumber && "border-red-500"
               }`}
             />
-            {/* Error message for invalid email */}
-            {!isValidEmail && <p className="error">Please enter a valid email address.</p>}
+            {/* Error message for invalid phone number */}
+            {!isValidPhoneNumber && <p className="error">Please enter a valid phone number.</p>}
             <button
               type="submit"
               data-testid="signupWidgetButton"
@@ -105,8 +103,8 @@ function App() {
   return (
     <>
       <SignupWidget
-        title={"Stay up to date"}
-        content={"Get notified when I publish something new, and unsubscribe at any time."}
+        title={"Let`s keep in touch"}
+        content={"Let me add you as my WhatsApp contact.\n This is the better way to contact me, and you will also be able to see my updates"}
       />
     </>
   );
