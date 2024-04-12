@@ -64,6 +64,7 @@ SkillsWidget.propTypes = {
       icon: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       proficiency: PropTypes.number.isRequired,
+      
     })
   ),
 };

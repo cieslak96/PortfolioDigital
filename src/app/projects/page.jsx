@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="max-w-screen-lg py-8 md:py-12 px-4 md:px-0 mx-auto">
         <Header/>
         <div>
-          <div className="w-full">
+          <div className="w-full py-12">
             <Intro/>
           </div>
         </div>
