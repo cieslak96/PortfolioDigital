@@ -1,4 +1,3 @@
-
 import "tailwindcss/tailwind.css";
 import React from "react";
 import Header from '../../components/Header';
@@ -13,8 +12,8 @@ export const metadata = {
 
 export default function Projects() {
   return (
-    <div className="min-h-screen  dark:bg-black dark:text-white">
-      <div className="max-w-screen-lg py-8 md:py-12 px-4 md:px-0 mx-auto">
+    <div className="min-h-screen dark:bg-black dark:text-white">
+      <div className="max-w-screen-lg py-8 md:py-12 px-4 md:px-8 lg:px-12 mx-auto">
         <Header/>
         <div>
           <div className="w-full py-12">

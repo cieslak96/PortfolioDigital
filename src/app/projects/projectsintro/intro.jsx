@@ -8,15 +8,14 @@ import P4 from "./P4.png";
 import Image from "next/image";
 
 const Project = ({ title, image, description, technologies, link }) => (
-  <div className="col-span-1 px-4 border border-gray-300 rounded-lg shadow-md">
+  <div className="col-span-1 px-4 border border-gray-300 rounded-lg shadow-md flex flex-col">
     <div className="text-xl font-semibold py-3">{title}</div>
-    <Image src={image} className="mx-auto" alt={title} width={300} height={300} />
-    <div className="text-sm italic">{technologies}</div>
+    <div className="relative">
+      <Image src={image} className="mx-auto" alt={title} width={300} height={300} />
+      <div className="text-sm italic  text-center">{technologies}</div>
+    </div>
     <div className="text-lg py-4">{description}</div>
-
-      {link}
-
-
+    {link}
   </div>
 );
 
@@ -40,7 +39,7 @@ const IntroProjects = () => (
         something magical.
       </div>
     </section>
-    <div className="grid grid-cols-4 gap-8 mx-4 md:mx-0">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mx-4 md:mx-0">
       <Project
         title="Black Jack Game"
         image={P1}
