@@ -1,85 +1,61 @@
-import UsesSection from './UsesSection';
+import UsesSection from "./UsesSection";
 
 const items = [
   {
-    groupName: 'Workstation',
+    groupName: "Workstation",
     items: [
       {
-        title: 'Item Name',
+        title: "Apple Products",
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
+          "Most of my life Lenovo had the first place on my podium, but Apple with it`s new M1/M2 gainned mu heart.the interconnectivity between devices makes my life beautiful ",
       },
       {
-        title: 'Item Name',
+        title: "Philips Headphone",
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
+          "Its a pitty those are so underated. Considering price, song quility and isolation its beats JBL in each catgory.",
       },
-      {
-        title: 'Item Name',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
-      },
-      {
-        title: 'Item Name',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
-      },
-      {
-        title: 'Item Name',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
-      },
+    ],
+  },
 
-    ],
-  },
   {
-    groupName: 'Development Tools',
+    groupName: "Design",
     items: [
       {
-        title: 'Item Name',
+        title: "Whimsical",
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
+          "I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.",
       },
       {
-        title: 'Item Name',
+        title: "Figma",
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
-      },
-      {
-        title: 'Item Name',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.',
+          "I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.",
       },
     ],
   },
   {
-    groupName: 'Design',
+    groupName: "Productivity",
     items: [
       {
-        title: 'Whimsical',
-        description:
-          'I use Whimsical for all of my wireframing and flowcharting. It’s fast, has great collaboration features, and is highly customizable.',
+        title: "Trello",
+        description: "Trello makes organizing my to-do list fun and practical",
       },
       {
-        title: 'Figma',
-        description:
-          'I use Figma for all of my design work. It’s fast, has great collaboration features, and is highly customizable.',
+        title: "Red Bull",
+        description: "This delicious energy drink enhances my focus and keeps sme awake on those long coders nights.",
       },
-
     ],
   },
   {
-    groupName: 'Productivity',
+    groupName: "Inspirations",
     items: [
       {
-        title: 'Notion',
-        description:
-          'I use Notion for all of my note-taking and knowledge management. It’s fast, has great collaboration features, and is highly customizable.',
+        title: "Anonymous",
+        description: "Because of course",
       },
       {
-        title: 'Alfred',
+        title: "Mr. Robot - (just the 2 first seasons)",
         description:
-          'I use Alfred for all of my productivity needs. It’s fast, has great features, and is highly customizable.',
+          "Available on Amazon prime, it has as the main carachther a coder. I like it because it does not show coding like most of Hollywood where we can hack FBI in 2 minutes. It talks about coding and also about mental healthy",
       },
     ],
   },

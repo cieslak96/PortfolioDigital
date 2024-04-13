@@ -45,7 +45,7 @@ const SignupWidget = ({ title, content, simulateNetworkRequestTime }) => {
       <div data-testid={"signupWidgetTitle"} className="font-semibold item-center flex">
         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
-      d="M4.752 6.524C3.684 7.53 2.06 10.862 4.11 16.133L3 21l4.273-1.51c2.905 1.258 8.844 1.972 12.22-3.064 3.16-4.715.823-9.525-2.18-11.749-2.06-1.526-5.793-2.735-10.51-.251-.456 2.042-.59 6.638 2.692 9.525 4.101 3.608 7.349 1.846 8.032.587l-2.82-1.636-1.41 1.258c-1.04-.363-3.256-1.51-3.802-3.189l.94-1.258L9.238 6.9c-.299.084-1.004.365-1.431.818"
+            d="M4.752 6.524C3.684 7.53 2.06 10.862 4.11 16.133L3 21l4.273-1.51c2.905 1.258 8.844 1.972 12.22-3.064 3.16-4.715.823-9.525-2.18-11.749-2.06-1.526-5.793-2.735-10.51-.251-.456 2.042-.59 6.638 2.692 9.525 4.101 3.608 7.349 1.846 8.032.587l-2.82-1.636-1.41 1.258c-1.04-.363-3.256-1.51-3.802-3.189l.94-1.258L9.238 6.9c-.299.084-1.004.365-1.431.818"
             class="stroke-current"
           />
         </svg>
@@ -104,7 +104,9 @@ function App() {
     <>
       <SignupWidget
         title={"Let`s keep in touch"}
-        content={"Let me add you as my WhatsApp contact. This is the better way to contact me, and you will also be able to see my updates"}
+        content={
+          "Let me add you as my WhatsApp contact. This is the better way to contact me, and you will also be able to see my updates"
+        }
       />
     </>
   );

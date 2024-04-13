@@ -6,8 +6,7 @@ const ArticleCard = () => {
     {
       date: "Feb. 13, 2019",
       title: "The Secret History of Women in Coding",
-      content:
-        "Computer programming once had much better gender balance than it does today. What went wrong?",
+      content: "Computer programming once had much better gender balance than it does today. What went wrong?",
       link: "https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html",
     },
 
@@ -15,17 +14,16 @@ const ArticleCard = () => {
       date: "DEC 13, 2022",
       title: "Learn Coding on Your Own: How to Teach Yourself Coding",
       content:
-      "Learning coding on your own can be a great way to start your coding journey. As a self-taught programmer, you will pick up new skills, gain access to the best tech jobs, improve your salary, and make yourself a more valuable employee no matter what industry you work for. If you’re wondering how to learn coding by yourself, keep reading.",
+        "Learning coding on your own can be a great way to start your coding journey. As a self-taught programmer, you will pick up new skills, gain access to the best tech jobs, improve your salary, and make yourself a more valuable employee no matter what industry you work for. If you’re wondering how to learn coding by yourself, keep reading.",
       link: "https://careerkarma.com/blog/how-to-learn-coding-by-yourself/",
     },
     {
       date: "Jun 24, 2020",
       title: "Young Black Women Are Learning To Code Thanks To These Brazilians",
       content:
-      "Meet Ester Borges Santos, a trailblazing force from Sao Paulo, Brazil, on a mission to shatter gender and racial barriers in STEM. In the face of Covid-19, she and her team at NGO Minas Programam launched a virtual haven for young black girls eager to dive into the world of technology. Their inspiring journey not only cultivates coding skills but also empowers a generation to defy stereotypes and claim their space in the realms of science and innovation. Join the movement as they pave the way for a brighter, more inclusive future in tech.",
+        "Meet Ester Borges Santos, a trailblazing force from Sao Paulo, Brazil, on a mission to shatter gender and racial barriers in STEM. In the face of Covid-19, she and her team at NGO Minas Programam launched a virtual haven for young black girls eager to dive into the world of technology. Their inspiring journey not only cultivates coding skills but also empowers a generation to defy stereotypes and claim their space in the realms of science and innovation. Join the movement as they pave the way for a brighter, more inclusive future in tech.",
       link: "https://www.forbes.com/sites/andrewwight/2020/06/24/young-black-women-are-learning-to-code-thanks-to-these-brazilians/?sh=5481454b3ef0",
     },
-   
   ];
 
   if (!articles.length) {

@@ -8,7 +8,7 @@ import Css from "./Css.png";
 
 const SkillsWidget = ({ title, content, skills }) => {
   // Find the maximum proficiency level
-  const maxProficiency = Math.max(...skills.map(skill => skill.proficiency));
+  const maxProficiency = Math.max(...skills.map((skill) => skill.proficiency));
 
   return (
     <section
@@ -64,7 +64,6 @@ SkillsWidget.propTypes = {
       icon: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       proficiency: PropTypes.number.isRequired,
-      
     })
   ),
 };
@@ -82,11 +81,7 @@ const skills = [
 function App() {
   return (
     <>
-      <SkillsWidget
-        title={"Skills"}
-        content={"Web Development is a passion"}
-        skills={skills}
-      />
+      <SkillsWidget title={"Skills"} content={"Web Development is a passion"} skills={skills} />
     </>
   );
 }

@@ -6,7 +6,6 @@ import TP from "./TP.png";
 import CNA from "./CNA.png";
 import LDS from "./LDS.png";
 
-
 const WorkWidget = ({ title, content, experiences }) => {
   return (
     <div
@@ -106,7 +105,6 @@ const App = () => {
               startYear: 2017,
               endYear: 2018,
             },
-
           ]}
         />
       </div>

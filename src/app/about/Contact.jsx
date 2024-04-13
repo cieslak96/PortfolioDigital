@@ -6,20 +6,20 @@ export default function RightSide() {
       <ul className=" item-center justify-center py-10 border-b  border-gray-100 dark:bg-black">
         <li>
           <div style={{ display: "flex", alignItems: "center" }}>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 3 24 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="{{ IsDarkMode ? 'fill-white' : 'fill-gray-800' }}"
-            style={{ marginRight: "8px" }}
-          >
-            <path
-              d="M1.125 5.515A1 1 0 0 1 2 5h14a1 1 0 0 1 .84 1.543l-5.162 7.977.347.578 6.131-9.635A1 1 0 0 1 19 5h3a1 1 0 0 1 .848 1.53l-10 16a1 1 0 0 1-1.696 0l-10-16a1 1 0 0 1-.027-1.015ZM3.805 7 12 20.113 20.196 7h-.647l-6.705 10.537a1 1 0 0 1-1.701-.022l-1.5-2.5a1 1 0 0 1 .017-1.058L14.162 7H3.804Z"
-              class="fill-current"
-            />
-          </svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 3 24 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="{{ IsDarkMode ? 'fill-white' : 'fill-gray-800' }}"
+              style={{ marginRight: "8px" }}
+            >
+              <path
+                d="M1.125 5.515A1 1 0 0 1 2 5h14a1 1 0 0 1 .84 1.543l-5.162 7.977.347.578 6.131-9.635A1 1 0 0 1 19 5h3a1 1 0 0 1 .848 1.53l-10 16a1 1 0 0 1-1.696 0l-10-16a1 1 0 0 1-.027-1.015ZM3.805 7 12 20.113 20.196 7h-.647l-6.705 10.537a1 1 0 0 1-1.701-.022l-1.5-2.5a1 1 0 0 1 .017-1.058L14.162 7H3.804Z"
+                class="fill-current"
+              />
+            </svg>
             <a href="https://vero.co/angelacieslak" target="_blank" rel="noreferrer">
               Follow me on Vero
             </a>
