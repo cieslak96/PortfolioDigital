@@ -11,7 +11,7 @@ export default function Intro() {
   return (
     <div className="container mx-auto p-5 ">
       <Image src={profilePic} alt="Profile" className=" p-5 rounded-full w-64 h-64 md:w-50 md:h-50" />
-      <h1 className="text-2xl md:text-4xl text-left font-semibold my-4">Angela Cieslak , 27</h1>
+      <h1 className="text-2xl md:text-4xl text-left font-semibold my-4">Angela Cieslak , 29</h1>
       <p className="text-base md:text-lg text-left">F-Society</p>
       <ul className="flex">
         <li>

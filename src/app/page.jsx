@@ -1,7 +1,6 @@
 import Intro from "./Home/Intro/Intro";
 import "tailwindcss/tailwind.css";
 import React from "react";
-import SignupWidget from "./Home/SignupWidget";
 import SkillsWidget from "./Home/Skillswidget/SkillsWidget";
 import WorkWidget from "./Home/WorkWidget/WorkWidget";
 import Footer from "../components/Footer";
@@ -25,7 +24,7 @@ export default function Home() {
             <Article />
           </div>
           <div className="space-y-3 p-3 flex flex-col ">
-            <SignupWidget />
+
             <WorkWidget />
             <SkillsWidget />
           </div>

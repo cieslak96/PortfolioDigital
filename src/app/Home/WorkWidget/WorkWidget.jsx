@@ -5,6 +5,7 @@ import Image from "next/image";
 import TP from "./TP.png";
 import CNA from "./CNA.png";
 import LDS from "./LDS.png";
+import VARA from "./VARA.png";
 
 const WorkWidget = ({ title, content, experiences }) => {
   return (
@@ -84,6 +85,13 @@ const App = () => {
           title={"Work"}
           content={"Some wonderful places I had the opportunity to work for"}
           experiences={[
+             {
+              logo: VARA,
+              organization: "VARA Salon Suites",
+              jobTitle: "Full Stack Dev (Intern)",
+              startYear: 2026,
+              endYear: 2026,
+            },
             {
               logo: LDS,
               organization: "Church of Jesus Christ",
